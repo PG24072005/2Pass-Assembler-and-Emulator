@@ -284,7 +284,7 @@ bool SETinstruction(string &label_name , string &val , int lnum , int toadd){
 //Clean the Lines of the code ;
 string InputName = "input.asm";
 void clean(){
-	ifstream infile ;
+	ifstream infile ;  // input file stream object named infile
 	infile.open(InputName) ;
 	if(infile.fail()){
 		cout << "Error in Opening Input file" ;
